@@ -313,7 +313,7 @@ body {
     transition: transform 0.2s;
   }
   .menu-btn-active {
-     height: 0;
+    height: 0;
   }
   .menu-btn-active:before {
     transform: rotate(45deg);
@@ -323,16 +323,20 @@ body {
     transform: rotate(-45deg);
     margin-top: 0;
   }
-  .header  {
+  .header {
     display: none;
-    width: 230px;
+    width: 200px;
     flex-direction: column;
     position: absolute;
     top: 0;
     right: 0;
-    background-color:#9d2929;
+    background-color: #9d2929;
     padding-bottom: 40px;
     padding-top: 25px;
+    order: 1;
+  }
+  .rating-number {
+    display: none;
   }
   .header-active {
     display: flex;
